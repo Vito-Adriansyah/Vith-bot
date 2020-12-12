@@ -8,9 +8,9 @@
 * ARIS187 ID
 * BOLEH UBAH TAPI KECUALI INFO!!!
 */
-const A187 = '⚡DL BOT⚡'; // JANGAN UBAH-UBAH INFO!!!
-const instagram = 'https://instagram.com/_its.rival'; // JANGAN UBAH-UBAH INFO!!!
-const nomer = 'Wa.me/+6285762102148'; // JANGAN UBAH-UBAH INFO!!!
+const A187 = 'Vith Bot'; // JANGAN UBAH-UBAH INFO!!!
+const instagram = 'https://instagram.com/_vitoedtz_'; // JANGAN UBAH-UBAH INFO!!!
+const nomer = 'Wa.me/+6283178751461'; // JANGAN UBAH-UBAH INFO!!!
 const aktif = 'Tergantung jaringan'; // JANGAN UBAH-UBAH INFO!!!
 const groupwhatsapp = 'https://chat.whatsapp.com/LT6xygC6ndn7oKcPOXzxy2'; // JANGAN UBAH-UBAH INFO!!!
 const youtube = 'https://www.youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg'; // JANGAN UBAH-UBAH INFO!!!
@@ -175,7 +175,7 @@ else if (text == '#donasi'){
 conn.sendMessage(id, ' *Menampilkan Donasi!!!* ' ,MessageType.text);
 }
 else if (text == '#creator'){
-conn.sendMessage(id, ' *Creator DL BOT⚡ wa.me/+6285762102148*' ,MessageType.text);
+conn.sendMessage(id, ' *Creator DL BOT⚡ wa.me/+6283178751461*' ,MessageType.text);
 }
 else if (text == 'Pagi'){
 conn.sendMessage(id, ' _Pagi juga, Iyah aku disini kak...ada yang bisa kami bantu? Ketik *#help* untuk melihat fitur bot kami🙏_ ' ,MessageType.text);
