@@ -64,7 +64,7 @@ conn.on('qr', qr =>
    {
       small: true
    });
-   console.log(`[ ${moment().format("HH:mm:ss")} ] DL BOT Scan Qrnya Nya Gan..`);
+   console.log(`[ ${moment().format("HH:mm:ss")} ] VITH BOT Scan Qrnya Nya Gan..`);
 });
 
 conn.on('credentials-updated', () =>
@@ -83,7 +83,7 @@ conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @_its.rival`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @_vitoedtz`)
 })
 
 conn.on('message-new', async(m) =>
@@ -151,7 +151,7 @@ else if (text == 'Asu'){
 conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
 }
 else if (text == '#owner'){
-conn.sendMessage(id, ' *Owner DL BOT⚡ wa.me/+6285762102148 ' ,MessageType.text);
+conn.sendMessage(id, ' *Owner Vith Bot😎 wa.me/+6283178751461*' ,MessageType.text);
 }
 else if (text == '#help'){
 conn.sendMessage(id, ' *Menampilkan Pilihan Menu!!!* ' ,MessageType.text);
@@ -175,7 +175,7 @@ else if (text == '#donasi'){
 conn.sendMessage(id, ' *Menampilkan Donasi!!!* ' ,MessageType.text);
 }
 else if (text == '#creator'){
-conn.sendMessage(id, ' *Creator DL BOT⚡ wa.me/+6283178751461*' ,MessageType.text);
+conn.sendMessage(id, ' *Creator Vith Bot wa.me/+6283178751461*' ,MessageType.text);
 }
 else if (text == 'Pagi'){
 conn.sendMessage(id, ' _Pagi juga, Iyah aku disini kak...ada yang bisa kami bantu? Ketik *#help* untuk melihat fitur bot kami🙏_ ' ,MessageType.text);
@@ -193,7 +193,7 @@ else if (text == 'Ngentod'){
 conn.sendMessage(id, 'Jaga Mulut Bro...' ,MessageType.text);
 }
 else if (text == 'Anjing'){
-conn.sendMessage(id, 'Dari Pada Lu Toxic Lu donasi Owner gw Vipul : 085762102148 :V' ,MessageType.text);
+conn.sendMessage(id, 'Dari Pada Lu Toxic Lu donasi Owner gw Vipul : 083178751461 :V' ,MessageType.text);
 }
 else if (text == 'Bacot'){
 conn.sendMessage(id, ' *lu bacot_-* ' ,MessageType.text);
@@ -932,22 +932,22 @@ else if (text == '!foto'){
 conn.sendMessage(id, 'kirim !foto cewek/cowok\n\nContoh: !foto cewek' ,MessageType.text);
 }
 else if (text == '#help'){
-conn.sendMessage(id, 'Jangan Lupa Follow Ig : *its.rival* 🥺' ,MessageType.text);
+conn.sendMessage(id, 'Jangan Lupa Follow Ig : *@vitoedtz_*' ,MessageType.text);
 }
 else if (text == '#menu1'){
-conn.sendMessage(id, 'Jangan Lupa Follow Ig : *its.rival* 🥺' ,MessageType.text);
+conn.sendMessage(id, 'Jangan Lupa Follow Ig : *@vitoedtz_*' ,MessageType.text);
 }
 else if (text == '#menu'){
 conn.sendMessage(id, 'Comandnya *#help* Gan 🙂' ,MessageType.text);
 }
 else if (text == '#menu2'){
-conn.sendMessage(id, 'Jangan Lupa Follow Ig : *its.rival* 🥺' ,MessageType.text);
+conn.sendMessage(id, 'Jangan Lupa Follow Ig : @vitoedtz_*' ,MessageType.text);
 }
 else if (text == '#menu3'){
-conn.sendMessage(id, 'Jangan Lupa Follow Ig : *its.rival* 🥺' ,MessageType.text);
+conn.sendMessage(id, 'Jangan Lupa Follow Ig : *@vitoedtz_*' ,MessageType.text);
 }
 else if (text == '#menu4'){
-conn.sendMessage(id, 'Jangan Lupa Follow Ig : *its.rival* 🥺' ,MessageType.text);
+conn.sendMessage(id, 'Jangan Lupa Follow Ig : *@vitoedtz_*' ,MessageType.text);
 }
    if (messageType == 'imageMessage')
    {
